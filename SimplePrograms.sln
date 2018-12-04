@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplePrograms", "SimplePrograms\SimplePrograms.csproj", "{121CCB9E-CE99-49B6-AEFA-292B1758CEE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimplePrograms", "SimplePrograms\SimplePrograms.csproj", "{121CCB9E-CE99-49B6-AEFA-292B1758CEE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopingConstructs", "LoopingConstructs\LoopingConstructs.csproj", "{E34E16D6-46D1-4706-A92D-4FFEF7D5BBD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoopingConstructs", "LoopingConstructs\LoopingConstructs.csproj", "{E34E16D6-46D1-4706-A92D-4FFEF7D5BBD6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElementaryNumberTheory", "ElementaryNumberTheory\ElementaryNumberTheory.csproj", "{CD9FA828-6FEC-475D-A772-0FDA4734AC07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionExamples", "RecursionExamples\RecursionExamples.csproj", "{E49E5676-1D93-45FB-90B5-E35C2AA2DA1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{E34E16D6-46D1-4706-A92D-4FFEF7D5BBD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E34E16D6-46D1-4706-A92D-4FFEF7D5BBD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E34E16D6-46D1-4706-A92D-4FFEF7D5BBD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD9FA828-6FEC-475D-A772-0FDA4734AC07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD9FA828-6FEC-475D-A772-0FDA4734AC07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD9FA828-6FEC-475D-A772-0FDA4734AC07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD9FA828-6FEC-475D-A772-0FDA4734AC07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E49E5676-1D93-45FB-90B5-E35C2AA2DA1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E49E5676-1D93-45FB-90B5-E35C2AA2DA1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E49E5676-1D93-45FB-90B5-E35C2AA2DA1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E49E5676-1D93-45FB-90B5-E35C2AA2DA1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
