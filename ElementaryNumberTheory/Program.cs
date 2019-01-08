@@ -10,7 +10,7 @@ namespace ElementaryNumberTheory
         {
             if (n < 2) return false;
 
-            for(int i = 2; i*i <= n; i++)
+            for(int i = 2; i*i <= n; i++) // sqrt is not necessary
             {
                 if (n % i == 0) return false;
             }
@@ -29,6 +29,16 @@ namespace ElementaryNumberTheory
             if (b == 0) return a;
             return gcdeuclid(b, a % b);
         }
+
+        //static int lcm(int a, int b)
+        //{
+
+        //}
+
+        //static int lcm2(int a, int b)
+        //{
+
+        //}
 
         //static int gcdfactors(int a, int b)
         //{
